@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".paginaPrincipal"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:id="@+id/toolbar2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="InfoTec"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@+id/toolbar2"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@color/white"
+        app:tabIndicatorColor="@color/purple_200"
+        app:tabIndicatorHeight="3.5dp"
+        app:tabSelectedTextColor="@color/teal_700"
+        app:tabTextColor="@color/teal_200">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabNoticias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noticias"
+            />
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabActividades"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="actividades"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabCalendario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calendario"/>
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tablayout"
+        android:layout_marginTop="0dp">
+
+    </androidx.viewpager.widget.ViewPager>
+
+</LinearLayout>
