@@ -9,10 +9,13 @@
         <entry key="..\:/Users/dell/AndroidStudioProjects/InfoTec/app/src/main/res/layout/contenedor_actividades.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/dell/AndroidStudioProjects/InfoTec/app/src/main/res/layout/contenedor_calendario.xml" value="0.17074275362318841" />
         <entry key="..\:/Users/dell/AndroidStudioProjects/InfoTec/app/src/main/res/layout/contenedor_noticias.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/iramo/AndroidStudioProjects/InfoTec/app/src/main/res/layout/activity_add.xml" value="0.18" />
         <entry key="..\:/Users/iramo/AndroidStudioProjects/InfoTec/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/iramo/AndroidStudioProjects/InfoTec/app/src/main/res/layout/activity_pagina_principal.xml" value="0.25" />
+        <entry key="..\:/Users/iramo/AndroidStudioProjects/InfoTec/app/src/main/res/layout/activity_view.xml" value="0.19202898550724637" />
+        <entry key="..\:/Users/iramo/AndroidStudioProjects/InfoTec/app/src/main/res/layout/contenedor_noticias.xml" value="0.1" />
         <entry key="..\:/Users/iramo/AndroidStudioProjects/InfoTec/app/src/main/res/layout/fragment_actividades.xml" value="0.16077898550724637" />
-        <entry key="..\:/Users/iramo/AndroidStudioProjects/InfoTec/app/src/main/res/layout/fragment_calendario.xml" value="0.16077898550724637" />
+        <entry key="..\:/Users/iramo/AndroidStudioProjects/InfoTec/app/src/main/res/layout/fragment_calendario.xml" value="0.25" />
         <entry key="..\:/Users/iramo/AndroidStudioProjects/InfoTec/app/src/main/res/layout/fragment_noticias.xml" value="0.16077898550724637" />
       </map>
     </option>
@@ -22,5 +25,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.18" />
+      </ProjectState>
+    </option>
   </component>
 </project>

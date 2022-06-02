@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CalendarView;
 
 import com.example.infotec.R;
 
@@ -15,7 +16,8 @@ import com.example.infotec.R;
  * Use the {@link Calendario#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class Calendario extends Fragment {
+public class Calendario extends Fragment{
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -48,13 +50,17 @@ public class Calendario extends Fragment {
         return fragment;
     }
 
+    private CalendarView calendarView;
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        //calendarView=(CalendarView) find
     }
 
     @Override
